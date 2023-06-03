@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+      <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+        <option name="ignoredPackages">
+          <value>
+            <list size="8">
+              <item index="0" class="java.lang.String" itemvalue="mysqlclient" />
+              <item index="1" class="java.lang.String" itemvalue="ldap" />
+              <item index="2" class="java.lang.String" itemvalue="jose" />
+              <item index="3" class="java.lang.String" itemvalue="pydantic" />
+              <item index="4" class="java.lang.String" itemvalue="sqlmodel" />
+              <item index="5" class="java.lang.String" itemvalue="requests" />
+              <item index="6" class="java.lang.String" itemvalue="fastapi" />
+              <item index="7" class="java.lang.String" itemvalue="boto3" />
+            </list>
+          </value>
+        </option>
+      </inspection_tool>
+      <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+        <option name="ignoredErrors">
+          <list>
+            <option value="N802" />
+          </list>
+        </option>
+      </inspection_tool>
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="ProjectCodeStyleConfiguration">
+    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default" />
+    <code_scheme name="Project" version="173">
+      <ScalaCodeStyleSettings>
+        <option name="MULTILINE_STRING_CLOSING_QUOTES_ON_NEW_LINE" value="true" />
+      </ScalaCodeStyleSettings>
+    </code_scheme>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RobotCane.iml" filepath="$PROJECT_DIR$/RobotCane.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
